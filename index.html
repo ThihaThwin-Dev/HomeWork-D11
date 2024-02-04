@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div>Mine Sweeper</div>
+    </div>
+    <div class="body">
+        <table class="tb">
+            <tr>
+                <td class="cell" id="11" onclick="userPress(this)"></td>
+                <td class="cell" id="12" onclick="userPress(this)"></td>
+                <td class="cell" id="13" onclick="userPress(this)"></td>
+                <td class="cell" id="14" onclick="userPress(this)"></td>
+                <td class="cell" id="15" onclick="userPress(this)"></td>
+                <td class="cell" id="16" onclick="userPress(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="21" onclick="userPress(this)"></td>
+                <td class="cell" id="22" onclick="userPress(this)"></td>
+                <td class="cell" id="23" onclick="userPress(this)"></td>
+                <td class="cell" id="24" onclick="userPress(this)"></td>
+                <td class="cell" id="25" onclick="userPress(this)"></td>
+                <td class="cell" id="26" onclick="userPress(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="31" onclick="userPress(this)"></td>
+                <td class="cell" id="32" onclick="userPress(this)"></td>
+                <td class="cell" id="33" onclick="userPress(this)"></td>
+                <td class="cell" id="34" onclick="userPress(this)"></td>
+                <td class="cell" id="35" onclick="userPress(this)"></td>
+                <td class="cell" id="36" onclick="userPress(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="41" onclick="userPress(this)"></td>
+                <td class="cell" id="42" onclick="userPress(this)"></td>
+                <td class="cell" id="43" onclick="userPress(this)"></td>
+                <td class="cell" id="44" onclick="userPress(this)"></td>
+                <td class="cell" id="45" onclick="userPress(this)"></td>
+                <td class="cell" id="46" onclick="userPress(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="51" onclick="userPress(this)"></td>
+                <td class="cell" id="52" onclick="userPress(this)"></td>
+                <td class="cell" id="53" onclick="userPress(this)"></td>
+                <td class="cell" id="54" onclick="userPress(this)"></td>
+                <td class="cell" id="55" onclick="userPress(this)"></td>
+                <td class="cell" id="56" onclick="userPress(this)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="61" onclick="userPress(this)"></td>
+                <td class="cell" id="62" onclick="userPress(this)"></td>
+                <td class="cell" id="63" onclick="userPress(this)"></td>
+                <td class="cell" id="64" onclick="userPress(this)"></td>
+                <td class="cell" id="65" onclick="userPress(this)"></td>
+                <td class="cell" id="66" onclick="userPress(this)"></td>
+            </tr>
+        </table>
+    </div>
+    <audio id="clickSound" src="./mouse-click-153941.mp3"></audio>
+    <audio id="overSound" src="./videogame-death-sound-43894.mp3"></audio>
+    <div>
+        <span class="time">
+            Play Count : <span id="timeplayed"></span>
+        </span>
+    </div>
+</body>
+</html>
